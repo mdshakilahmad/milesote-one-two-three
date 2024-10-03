@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 500px;
+    width: 1200;
+    background-color: yellow;
+}
+
+.item {
+    border: 1px solid red;
+}
+
+.display_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 100px 100px 100px; */
+    justify-content: center;
+    /* grid-template-rows: 100px 100px; */
+    height: 400px;
+    align-content: center;
+}

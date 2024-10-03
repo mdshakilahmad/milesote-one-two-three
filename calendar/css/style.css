@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 40px repeat(5, 75px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.date,
+.day {
+
+    background-color: aqua;
+    /* height: 75px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 2em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-month {
+    background-color: lightgray;
+}
+
+.day {
+    font-size: 1.5em;
+    background-color: antiquewhite;
+}
